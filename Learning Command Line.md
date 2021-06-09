@@ -14,3 +14,4 @@ You can use it to traverse and edit your computer’s filesystem. Through the co
 * cd../.. - Go two levels up
 * mkdir - makes a new directory
 * touch - creates a new file in the directory
+* cat - used to display the contents of a file without opening it.
