@@ -27,3 +27,6 @@ You can use it to traverse and edit your computer’s filesystem. Through the co
 * rm -rf => We could combine the option -r with the option -f, which will delete forcibly without individually confirming each piece of content inside the directory.
 
 ## Redirection
+* echo "Hello"=> The echo command accepts the string "Hello"as standard input, and echoes the string “Hello” back to the terminal as standard output.
+* echo "Hello" > hello.txt => The > command redirects the standard output to a file. Here, "Hello" is entered as the standard input, and is then redirected to the file hello.txt by >
+* cat deserts.txt > forests.txt. => Here the output of deserts.txt is passed to forests.txt and the contents in forests.txt are overwritten.
