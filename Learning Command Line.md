@@ -25,3 +25,5 @@ You can use it to traverse and edit your computer’s filesystem. Through the co
 * mv => moves files from one directory to another directory without making a copy. For eg. mv my_file.txt my_directory/ 
 * rm => rm commands removes files and directories. When rm -r unwanted_directory is passes it deletes the file permanatly. r stands for recursive. 
 * rm -rf => We could combine the option -r with the option -f, which will delete forcibly without individually confirming each piece of content inside the directory.
+
+## Redirection
