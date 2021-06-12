@@ -22,3 +22,4 @@ You can use it to traverse and edit your computer’s filesystem. Through the co
     * cp * my_directory/.   => Copies all files from current directory to destination directory
     * cp w*.txt my_directory/ => Copies all files starting with w and with an txt to destination directory.
 * mv - moves files from one directory to another directory without making a copy. For eg. mv my_file.txt my_directory/ 
+* rm - rm commands removes files and directories. When rm -r unwanted_directory is passes it deletes the file permanatly. r stands for recursive. 
