@@ -32,3 +32,6 @@ You can use it to traverse and edit your computer’s filesystem. Through the co
 * cat deserts.txt > forests.txt. => Here the output of deserts.txt(left side) is passed to forests.txt and the contents in forests.txt are overwritten.
 * cat deserts.txt >> forests.txt => Here the contents of deserts.txt (left side) is appended to forests.txt. With >> operator we can append the contents without overwriting it.
 * | (pipe character) => The | takes the standard output of the command on the left, and pipes it as standard input to the command on the right. You can think of this as “command to command” redirection.
+* sort => sorts the files alphabetically without changing them.
+* uniq deserts.txt => uniq stands for “unique.” It filters out adjacent, duplicate lines in a file.
+* gre => kind of like regEX. grep stands for “global regular expression print.” It searches files for lines that match a pattern and then returns the results. It is also case sensitive.  
