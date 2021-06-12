@@ -29,4 +29,6 @@ You can use it to traverse and edit your computer’s filesystem. Through the co
 ## Redirection
 * echo "Hello"=> The echo command accepts the string "Hello"as standard input, and echoes the string “Hello” back to the terminal as standard output.
 * echo "Hello" > hello.txt => The > command redirects the standard output to a file. Here, "Hello" is entered as the standard input, and is then redirected to the file hello.txt by >
-* cat deserts.txt > forests.txt. => Here the output of deserts.txt is passed to forests.txt and the contents in forests.txt are overwritten.
+* cat deserts.txt > forests.txt. => Here the output of deserts.txt(left side) is passed to forests.txt and the contents in forests.txt are overwritten.
+* cat deserts.txt >> forests.txt => Here the contents of deserts.txt (left side) is appended to forests.txt. With >> operator we can append the contents without overwriting it.
+* | (pipe character) => The | takes the standard output of the command on the left, and pipes it as standard input to the command on the right. You can think of this as “command to command” redirection.
