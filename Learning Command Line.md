@@ -34,4 +34,8 @@ You can use it to traverse and edit your computer’s filesystem. Through the co
 * | (pipe character) => The | takes the standard output of the command on the left, and pipes it as standard input to the command on the right. You can think of this as “command to command” redirection.
 * sort => sorts the files alphabetically without changing them.
 * uniq deserts.txt => uniq stands for “unique.” It filters out adjacent, duplicate lines in a file.
-* gre => kind of like regEX. grep stands for “global regular expression print.” It searches files for lines that match a pattern and then returns the results. It is also case sensitive.  
+* grep => kind of like regEX. grep stands for “global regular expression print.” It searches files for lines that match a pattern and then returns the results. It is also case sensitive.  
+* grep -i => This will search for all patterns with case insensitive in mind. 
+* grep -R  => searches all files in a directory and outputs filenames and lines containing matched results. -R stands for “recursive”. 
+* greap -Rl => grep -Rl searches all files in a directory and outputs only filenames with matched results (so no lines).
+* sed 's/snow/rain/' forests.txt  => sed stands for “stream editor.” It accepts standard input and modifies it based on an expression, before displaying it as output data. It is similar to “find and replace.”
