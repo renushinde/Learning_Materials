@@ -4,10 +4,11 @@ You can use it to traverse and edit your computer’s filesystem. Through the co
 
 ## Navigating the file system
 
-* pwd - Print Working Directory, gives us an idea where are we right now.
-* ls - lists all all files and directories inside the current directory.
-  * ls -a - Lists all hidden files
-  * ls -l - Lists all files with long format
+* pwd => Print Working Directory, gives us an idea where are we right now.
+* ls => lists all all files and directories inside the current directory.
+  * ls -a => Lists all hidden files
+  * ls -l => Lists all files with long format
+  * la -t => orders files and directories by the time they were last modified
   * ls -alt - List all contents, including hidden files and directories, in long format, ordered by the date and time they were last modified.
 * cd - change diretory
 * cd .. - Go one level up
