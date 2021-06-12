@@ -39,4 +39,4 @@ You can use it to traverse and edit your computer’s filesystem. Through the co
 * grep -R  => searches all files in a directory and outputs filenames and lines containing matched results. -R stands for “recursive”. 
 * greap -Rl => grep -Rl searches all files in a directory and outputs only filenames with matched results (so no lines).
 * sed 's/snow/rain/' forests.txt  => sed stands for “stream editor.” It accepts standard input and modifies it based on an expression, before displaying it as output data. It is similar to “find and replace.”
-* sed -i 's/snow/rain/g' forests.txt => Here search(s) for any word 'snow' and replace it with 'rain' globally and rewrite the file using -i
+* sed -i 's/snow/rain/g' forests.txt => Here substistutes(s) for any word 'snow' and replace it with 'rain' globally and rewrite the file using -i
