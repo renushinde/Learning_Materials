@@ -15,3 +15,4 @@ You can use it to traverse and edit your computer’s filesystem. Through the co
 * mkdir - makes a new directory
 * touch - creates a new file in the directory
 * cat - used to display the contents of a file without opening it.
+* cp - copies the file. Use cp with the first argument being the file name, and the second argument being the destination directory’s path.
