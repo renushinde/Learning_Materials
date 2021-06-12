@@ -14,5 +14,10 @@ You can use it to traverse and edit your computer’s filesystem. Through the co
 * cd../.. - Go two levels up
 * mkdir - makes a new directory
 * touch - creates a new file in the directory
+
+## Manupulating files
 * cat - used to display the contents of a file without opening it.
-* cp - copies the file. Use cp with the first argument being the file name, and the second argument being the destination directory’s path.
+* cp - copies the file. Use cp with the first argument being the file name, and the second argument being the destination directory’s path. With cp command, we can copy multiple files.
+* Wild cards - we can use special characters like * to select groups of files. 
+    * cp * my_directory/.   => Copies all files from current directory to destination directory
+    * cp w*.txt my_directory/ => Copies all files starting with w and with an txt to destination directory.
